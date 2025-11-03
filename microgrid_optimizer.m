@@ -1,8 +1,14 @@
 % ==================================================================================================
 % FERRAMENTA DE OTIMIZAÇÃO DE MICRORREDES HÍBRIDAS (ON-GRID / OFF-GRID)
 % ==================================================================================================
-
-
+%  Um script em Octave para a simulação e otimização tecno-econômica de microrredes híbridas
+%  (PV, Baterias, Gerador). O objetivo é encontrar a configuração de menor 
+%  Custo Nivelado da Energia (LCOE) para operações conectadas à rede (On-Grid) e isoladas (Off-Grid).
+%
+%  Autor: Eng. Yuri Escobar Gayer (yurigayer@gmail.com)
+%  Orientador: Prof. Dr. Lizandro de Souza Oliveira (lizandro.oliveira@ucpel.edu.br)
+%  Programa: Mestrado em Engenharia Eletrônica e Computação - https://pos.ucpel.edu.br/ppgeec/
+%
 % ==================================================================================================
 % SEÇÃO 0: INICIALIZAÇÃO DO AMBIENTE
 % ==================================================================================================
@@ -696,3 +702,4 @@ function exibir_dados_ponto_customizado(h_obj, event, resultados)
     fprintf('   SFV: %.1f kWp | SAE: %.1f kWh | GMG: %.1f kW\n', ...
             dados_sfv, dados_sae, dados_gmg);
 end
+
