@@ -1,4 +1,31 @@
 
+# Ferramenta de Otimização de Microrredes Híbridas / Hybrid Microgrid Optimization Tool
+
+![Language](https://img.shields.io/badge/Language-Octave-blue.svg)
+![Status](https://img.shields.io/badge/Status-Academic%20Project-lightgrey.svg)
+
+---
+
+### 🇧🇷 Português
+
+Um script em Octave para a simulação e otimização tecno-econômica de microrredes híbridas (PV, Baterias, Gerador). O objetivo é encontrar a configuração de menor Custo Nivelado da Energia (LCOE) para operações conectadas à rede (On-Grid) e isoladas (Off-Grid).
+
+* **Autor:** Eng. Yuri Escobar Gayer ([yurigayer@gmail.com](mailto:yurigayer@gmail.com))
+* **Orientador:** Prof. Dr. Lizandro de Souza Oliveira ([lizandro.oliveira@ucpel.edu.br](mailto:lizandro.oliveira@ucpel.edu.br))
+* **Programa:** Mestrado em Engenharia Eletrônica e Computação - https://pos.ucpel.edu.br/ppgeec/
+
+---
+
+### 🇬🇧 English
+
+An Octave script for the techno-economic simulation and optimization of hybrid microgrids (PV, Batteries, Genset). The goal is to find the configuration with the lowest Levelized Cost of Energy (LCOE) for both on-grid and off-grid operations.
+
+* **Author:** Yuri Escobar Gayer, Eng. ([yurigayer@gmail.com](mailto:yurigayer@gmail.com))
+* **Advisor:** Prof. Lizandro de Souza Oliveira, PhD ([lizandro.oliveira@ucpel.edu.br](mailto:lizandro.oliveira@ucpel.edu.br))
+* **Program:** Master's in Electronic and Computer Engineering
+
+
+
 -----
 
 ### 🇧🇷 Português
