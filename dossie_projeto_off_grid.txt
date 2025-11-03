@@ -1,0 +1,53 @@
+================================================================
+                DOSSIE COMPLETO DO PROJETO - MODO OFF_GRID
+================================================================
+
+--- PREMISSAS DE ENTRADA DO PROJETO ---
+
+ PERFIL DE CARGA (SINTETICO):
+   - Consumo Medio Mensal (Informado): 2500 kWh/mes
+   - Consumo Total Anual (Calculado): 32995 kWh/ano
+   - Consumo mensal médio (Calculado): 2750 kWh/ano
+   - Demanda Maxima (Pico Calculado): 7.93 kW
+   - Demanda Media (Calculada): 3.77 kW
+   - Fator de Carga (Calculado): 0.47
+
+ CRITERIOS DE OTIMIZACAO (FILTROS):
+   - Autonomia Desejada: Entre 2.0 e 500.0 horas
+   - Penetracao Renovavel Desejada: Entre 20% e 500%
+
+ FINANCEIRO:
+   - Vida Util do Projeto: 25 anos
+   - Taxa de Desconto: 8.0 %
+
+ COMPONENTES:
+   - PV: Custo=R$3500/kWp, O&M=R$500/kWp/ano, Perdas=15%, Vida=25anos
+   - Bateria: Custo=R$1200/kWh, O&M=R$50/kWh/ano, DoD=80%, Efic=90%, Vida=6000ciclos
+   - Gerador: Custo=R$1700/kW, O&M=R$2.00/h, Vida=30000horas, Combustivel=R$6.50/L
+
+--- RESULTADOS DA SOLUCAO OTIMA ---
+
+ CONFIGURACAO:
+   - PV: 20.0 kWp | Bateria: 20.0 kWh | Gerador: 10.0 kW
+
+ METRICAS TECNICO-ECONOMICAS ANUAIS:
+   - LCOE: R$ 1.8204 / kWh
+   - LCOS (Bateria): R$ 0.7089 / kWh
+   - CAPEX: R$ 111000
+   - OPEX Anual: R$ 47380
+   - Custo Ciclo de Vida (LCC): R$ 641172
+   - Penetracao Renovavel: 58.3 %
+   - Autoconsumo (On-Grid): 100.0 %
+   - Autonomia (Off-Grid): 4.2 horas
+
+ BALANCO DE ENERGIA ANUAL (kWh):
+   - Consumo Total da Carga: 32995
+   - Energia Importada da Rede: 0
+   - Energia Exportada para a Rede: 0
+   - Energia Desperdicada (Curtailment): 4851
+   - Energia Nao Atendida (Corte de Carga): 0.00
+
+ OPERACAO DO GERADOR (ANUAL):
+   - Horas de Operacao: 5000 horas
+   - Consumo de Combustivel: 4058 Litros
+================================================================
