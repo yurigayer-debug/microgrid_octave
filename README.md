@@ -86,7 +86,7 @@ O script gera os 8 arquivos a seguir no seu diretório:
 
 ## 🧑‍💻 Autor
 
-  * **Eng. Eletricista Yuri Escobar Gayer-yurigayer@gmail.com**
+  * **Eng. Eletricista Yuri Escobar Gayer - yurigayer@gmail.com**
 -----
 
 ### 🇬🇧 English
@@ -147,4 +147,4 @@ The script generates the following 8 files in your directory:
 
 ## 🧑‍💻 Author
 
-  * **Eng. Eletricista Yuri Escobar Gayer-yurigayer@gmail.com**
+  * **Eng. Eletricista Yuri Escobar Gayer - yurigayer@gmail.com**
