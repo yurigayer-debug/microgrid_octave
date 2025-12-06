@@ -4,7 +4,7 @@
 
 -----
 
-### 🇧🇷 Português
+### Português
 
 Um script em Octave para a simulação e otimização tecno-econômica de microrredes híbridas (PV, Baterias, Gerador). O objetivo é encontrar a configuração de menor Custo Nivelado da Energia (LCOE) para operações conectadas à rede (On-Grid) e isoladas (Off-Grid).
 
@@ -14,7 +14,7 @@ Um script em Octave para a simulação e otimização tecno-econômica de micror
 
 -----
 
-## 🚀 Funcionalidades Principais
+##  Funcionalidades Principais
 
   * **Painel de Controle (Seção 1):** Centraliza todas as entradas do usuário (custos, perfis, tarifas, espaço de busca).
   * **Métricas Avançadas:** Calcula LCOE (Custo Nivelado da Energia), LCOS (Custo Nivelado do Armazenamento), LCC, CAPEX e OPEX.
@@ -24,7 +24,7 @@ Um script em Octave para a simulação e otimização tecno-econômica de micror
   * **Gráfico Interativo:** O plot de LCOE é clicável e exibe uma caixa de texto com 8 KPIs (SFV, SAE, GMG, LCOE, LCOS, CAPEX, OPEX, Autonomia).
   * **Geração de Relatórios:** Exporta 8 arquivos de saída (dossiês `.txt`, sumários `.txt` e dados brutos `.csv`).
 
-## 🛠️ Como Usar
+##  Como Usar
 
 ### 1\. Pré-requisitos
 
@@ -40,7 +40,7 @@ Um script em Octave para a simulação e otimização tecno-econômica de micror
 
   * Pressione **F5** ou execute o script no Octave.
 
-## 📊 Saídas (Outputs)
+##  Saídas (Outputs)
 
 ### Relatórios (.txt / .csv)
 
@@ -57,7 +57,7 @@ Um script em Octave para a simulação e otimização tecno-econômica de micror
 
 -----
 
-### 🇬🇧 English
+### English
 
 -----
 
@@ -69,7 +69,7 @@ An Octave script for the techno-economic simulation and optimization of hybrid m
 
 -----
 
-## 🚀 Key Features
+##  Key Features
 
   * **Control Panel (Section 1):** Centralizes all user inputs (costs, profiles, tariffs, search space).
   * **Advanced Metrics:** Calculates LCOE (Levelized Cost of Energy), LCOS (Levelized Cost of Storage), LCC, CAPEX, and OPEX.
@@ -79,7 +79,7 @@ An Octave script for the techno-economic simulation and optimization of hybrid m
   * **Interactive Plot:** The LCOE chart is clickable, displaying a text box with 8 key KPIs (PV, BESS, GENSET, LCOE, LCOS, CAPEX, OPEX, Autonomy).
   * **Report Generation:** Exports 8 output files (`.txt` optimal solution dossiers, `.txt` summaries, and `.csv` raw data).
 
-## 🛠️ How to Use
+##  How to Use
 
 ### 1\. Prerequisites
 
@@ -95,7 +95,7 @@ An Octave script for the techno-economic simulation and optimization of hybrid m
 
   * Press **F5** or run the script in Octave.
 
-## 📊 Outputs
+##  Outputs
 
 ### Reports (.txt / .csv)
 
