@@ -39,14 +39,14 @@ media_ghi_mensal_kwh_m2_dia = [5.5, 5.1, 4.3, 3.3, 2.5, 2.1, 2.3, 2.9, 3.6, 4.5,
 % --- 1.3: Espaço de Busca (Tamanhos a Simular) ---
 % Defina os vetores de tamanhos (kW e kWh) que o otimizador deve testar.
 vetor_tamanho_pv_kw = [11.2,15,20,25,30];
-vetor_tamanho_bateria_kwh = [5,10,15,20];
+vetor_tamanho_bateria_kwh = [20,30,40,50,60];
 vetor_tamanho_gerador_kw = [10,15,20]; % (Use 0 para simular sem gerador)
 
 % --- 1.4: Parâmetros Financeiros e de Rede ---
 vida_util_projeto = 25; % [anos]
 taxa_desconto = 0.08;   % [fração] (Ex: 8% = 0.08)
-tarifa_compra_energia = 0.05; % [R$/kWh] (Preço que você PAGA para a rede)
-tarifa_venda_energia = 0.04;  % [R$/kWh] (Preço que você RECEBE da rede)
+tarifa_compra_energia = 1.07; % [R$/kWh] (Preço que você PAGA para a rede)
+tarifa_venda_energia = 1.07;  % [R$/kWh] (Preço que você RECEBE da rede)
 
 % --- 1.5: Custos e Parâmetros dos Componentes ---
 % Sistema Fotovoltaico (SFV)
@@ -702,4 +702,5 @@ function exibir_dados_ponto_customizado(h_obj, event, resultados)
     fprintf('   SFV: %.1f kWp | SAE: %.1f kWh | GMG: %.1f kW\n', ...
             dados_sfv, dados_sae, dados_gmg);
 end
+
 
